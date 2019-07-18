@@ -1,0 +1,11 @@
+@import 'vars';
+
+.title {
+	margin: 0;
+	padding: 0 0 $padding / 2;
+	color: $primary_text;
+}
+
+.link {
+	text-decoration: none;
+}

@@ -1,0 +1,15 @@
+@import 'vars';
+
+.subtitle {
+	font-size: 1.2rem;
+	color: $secondary_text;
+	margin: 0;
+	font-weight: 100;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.link {
+	text-decoration: none;
+}

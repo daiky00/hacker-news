@@ -1,0 +1,15 @@
+@import 'vars';
+
+.content {
+	padding: $padding / 2 $padding;
+	word-wrap: break-word;
+}
+
+.content-side {
+	width: 75%;
+	padding: $padding / 2 $padding;
+	word-wrap: break-word;
+	@media screen and (max-width: $break-medium) {
+		width: 100%;
+	}
+}

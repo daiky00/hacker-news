@@ -1,0 +1,13 @@
+@import 'vars';
+
+.footer {
+	padding: $padding / 2 $padding;
+}
+
+.footer-side {
+	width: 75%;
+	padding: $padding / 2 $padding;
+	@media screen and (max-width: $break-medium) {
+		width: 100%;
+	}
+}

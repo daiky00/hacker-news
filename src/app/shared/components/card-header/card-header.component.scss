@@ -1,0 +1,14 @@
+@import 'vars';
+
+.header {
+	padding: $padding / 2 $padding;
+}
+
+.header-side {
+	width: 75%;
+	padding: $padding / 2 $padding;
+
+	@media screen and (max-width: $break-medium) {
+		width: 100%;
+	}
+}

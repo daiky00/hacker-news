@@ -1,0 +1,22 @@
+@import 'vars';
+
+:host {
+	display: block;
+}
+
+app-feed-card {
+	margin-bottom: 1rem;
+}
+
+.input-container {
+	margin-bottom: 1rem;
+	box-shadow: $box-shadow;
+}
+
+input {
+	display: block;
+	font-size: 1rem;
+	width: 100%;
+	border: none;
+	padding: $padding;
+}

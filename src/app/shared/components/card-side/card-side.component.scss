@@ -1,0 +1,16 @@
+@import 'vars';
+
+:host {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 40px;
+	@media screen and (max-width: $break-medium) {
+		top: 90%;
+		transform: translateY(-90%);
+	}
+
+	@media screen and (max-width: $break-small) {
+		display: none;
+	}
+}
