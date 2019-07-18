@@ -23,8 +23,6 @@ npm install
 
 #### Part 1: Create news item layout
 
-The project has been set up and a service to fetch a Hacker News feed has been created. The feed cards are currently just spitting out stringified JSON and need to be correctly formatted.
-
 The design for each news item is below, try to match the design as closely as possible.
 
 NOTE: The comments icons is included under src/assets.
@@ -34,8 +32,7 @@ NOTE2: the gray section is the background not a card border
 
 #### Part 2: Implement search
 
-At the top of the news feed there is a search field. Implement search that narrows the list as you
-type.
+Implement search that narrows the list as you type.
 
 Your search should check for a partial match on the "title", "url", and "user" fields
 
